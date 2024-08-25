@@ -1,0 +1,5 @@
+name: CubecoreLaby
+version: '${project.version}'
+main: com.memeasaur.cubecorelaby.CubecoreLaby
+api-version: '1.21'
+depend: [LabyModServerAPI]
