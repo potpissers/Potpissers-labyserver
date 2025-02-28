@@ -15,11 +15,9 @@ public final class CubecoreLaby extends JavaPlugin implements Listener {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
     }
-
-    @Override
-    public void onDisable() {
-    }
-
+//    @Override
+//    public void onDisable() {
+//    }
     @EventHandler
     void onLabyJoin(LabyModPlayerJoinEvent e) {
         e.labyModPlayer().requestInstalledAddons(requestList, response -> {
